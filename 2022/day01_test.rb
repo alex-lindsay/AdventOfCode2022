@@ -21,7 +21,7 @@ class TestDay01 < Test::Unit::TestCase
     day_01 = Day01.new(sample)
     # puts day_01.most_food_carried
     assert_equal(24000, day_01.most_food_carried)
-    puts day_01.top_n_total(3)
+    # puts day_01.top_n_total(3)
     assert_equal(45000, day_01.top_n_total(3))
   end
 
